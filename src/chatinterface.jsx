@@ -18,7 +18,7 @@ function ChatInterface() {
   return (
     <div className="frame">
       <div className="div">
-        <div className="text-wrapper">Inclusive Script</div>
+        <div className="text-wrapper">IncluScript.ai</div>
         <div className="text-wrapper-2">Ver 4.0 Mar 14</div>
       </div>
       <div className="div-2" />
