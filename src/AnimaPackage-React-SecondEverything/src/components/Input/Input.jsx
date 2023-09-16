@@ -39,7 +39,7 @@ export const Input = ({
               <p className="text-wrapper-18">Send me prompt and request ai chat GPT</p>
             )}
 
-            {state === "generate" && <>Generate message..</>}
+            {state === "generate" && <>Summarization</>}
           </div>
           {state === "generate" && <Stop2 className="instance-node" color="black" />}
 
