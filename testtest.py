@@ -22,7 +22,7 @@ import queue
 
 import openai
 
-openai.api_key = "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"
+openai.api_key = "your-key"
 
 
 def split_text(text):
