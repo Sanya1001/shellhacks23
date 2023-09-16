@@ -32,7 +32,7 @@ export const Slide = () => {
               <div className="frame-19">
                 <div className="frame-20">
                   <div className="text-wrapper-13">2.03 PM, 15 Nov</div>
-                  <p className="text-wrapper-14">Design development, UX/UI, product design - what is this?</p>
+                  <p className="text-wrapper-14"></p>
                 </div>
                 <div className="frame-21">
                   <Pencil03 className="icon-instance-node-3" color="#888888" />
