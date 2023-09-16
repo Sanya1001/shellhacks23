@@ -1,0 +1,209 @@
+.input {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.input .input-case {
+  align-items: flex-start;
+  border: 1px solid;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 16px;
+  position: relative;
+  width: 800px;
+}
+
+.input .content {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.input .instance-node {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.input .ellipse-wrapper {
+  border: 2px solid;
+  border-color: #e7e7e7;
+  border-radius: 10px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+  width: 20px;
+}
+
+.input .img {
+  height: 12px;
+  left: 8px;
+  position: absolute;
+  top: -2px;
+  width: 10px;
+}
+
+.input .send-a-message {
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.5px;
+  position: relative;
+}
+
+.input .cursor {
+  height: 32px;
+  left: 163px;
+  position: absolute;
+  top: 5px;
+  width: 32px;
+}
+
+.input .dscr {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.input .text-wrapper-12 {
+  color: var(--gray-400);
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}
+
+.input .p {
+  color: var(--gray-400);
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+}
+
+.input.state-1-active {
+  align-items: center;
+}
+
+.input.state-1-disabled {
+  align-items: center;
+}
+
+.input.state-1-hover {
+  align-items: center;
+}
+
+.input.state-1-generate {
+  align-items: flex-end;
+}
+
+.input.state-1-default {
+  align-items: center;
+}
+
+.input.state-1-filled {
+  align-items: center;
+}
+
+.input.state-1-active .input-case {
+  border-color: #000000;
+  overflow: hidden;
+}
+
+.input.state-1-disabled .input-case {
+  background-color: #e4e4e4;
+  border-color: #e4e4e4;
+  overflow: hidden;
+}
+
+.input.state-1-hover .input-case {
+  border-color: #626262;
+}
+
+.input.state-1-generate .input-case {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  overflow: hidden;
+}
+
+.input.state-1-default .input-case {
+  border-color: #e7e7e7;
+  overflow: hidden;
+}
+
+.input.state-1-filled .input-case {
+  border-color: #e7e7e7;
+  overflow: hidden;
+}
+
+.input.state-1-active .send-a-message {
+  color: #919191;
+}
+
+.input.state-1-disabled .send-a-message {
+  color: #c3c3c3;
+}
+
+.input.state-1-hover .send-a-message {
+  color: #919191;
+}
+
+.input.state-1-generate .send-a-message {
+  color: #000000;
+}
+
+.input.state-1-default .send-a-message {
+  color: #919191;
+}
+
+.input.state-1-filled .send-a-message {
+  color: #000000;
+}
+
+.input.state-1-active .dscr {
+  width: 800px;
+}
+
+.input.state-1-disabled .dscr {
+  width: 800px;
+}
+
+.input.state-1-hover .dscr {
+  width: 800px;
+}
+
+.input.state-1-generate .dscr {
+  align-self: stretch;
+  width: 100%;
+}
+
+.input.state-1-default .dscr {
+  width: 800px;
+}
+
+.input.state-1-filled .dscr {
+  width: 800px;
+}
