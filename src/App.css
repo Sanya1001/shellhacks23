@@ -36,3 +36,375 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px);
+}
+
+.ChatInterface {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.ChatMessages {
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.Message {
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.user {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-start;
+}
+
+.bot {
+  background-color: #6c757d;
+  color: white;
+  align-self: flex-end;
+}
+
+.ChatInput {
+  display: flex;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.ChatInput input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ChatInput button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.ChatInput button:hover {
+  background-color: #0056b3;
+}
+
+/* App.css */
+.ChatInterface {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.ChatMessages {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 20px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ChatConversation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Message {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.user {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-start;
+}
+
+.bot {
+  background-color: #6c757d;
+  color: white;
+  align-self: flex-end;
+}
+
+.ChatInput {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.ChatInput input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  margin-right: 10px;
+}
+
+.ChatInput button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ChatInput button:hover {
+  background-color: #0056b3;
+}
+
+#trying again
+.frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 64px;
+  position: relative;
+}
+
+.frame .div {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 800px;
+}
+
+.frame .text-wrapper {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .text-wrapper-2 {
+  color: #919191;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .div-2 {
+  height: 100px;
+  position: relative;
+  width: 100px;
+}
+
+.frame .div-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+  width: 800px;
+}
+
+.frame .div-4 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  position: relative;
+}
+
+.frame .div-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #e7e7e7;
+  border-radius: 12px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  padding: 20px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .div-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .div-6 {
+  align-items: flex-start;
+  background-color: #f7f7f7;
+  border-radius: 90px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 12px;
+  position: relative;
+}
+
+.frame .icon-instance-node {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.frame .div-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .text-wrapper-3 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}
+
+.frame .explain-quantum {
+  align-self: stretch;
+  color: #919191;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.4px;
+  position: relative;
+}
+
+.frame .span {
+  text-decoration: underline;
+}
+
+.frame .text-wrapper-4 {
+  color: #919191;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.4px;
+}
+
+.frame .p {
+  align-self: stretch;
+  color: #919191;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.4px;
+  margin-top: -2px;
+  position: relative;
+  text-decoration: underline;
+}
+
+.frame .frame-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #e7e7e7;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 180px;
+  overflow: hidden;
+  padding: 20px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .text-wrapper-5 {
+  align-self: stretch;
+  color: #919191;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.frame .text-wrapper-6 {
+  align-self: stretch;
+  color: #919191;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.4px;
+  margin-top: -2px;
+  position: relative;
+}
