@@ -1,1 +1,0 @@
-export { LinkAngled } from "./LinkAngled";
