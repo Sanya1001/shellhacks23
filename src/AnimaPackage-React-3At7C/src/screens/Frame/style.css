@@ -1,0 +1,212 @@
+.frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 64px;
+  position: relative;
+}
+
+.frame .div {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 800px;
+}
+
+.frame .text-wrapper {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .text-wrapper-2 {
+  color: #919191;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .div-2 {
+  height: 100px;
+  position: relative;
+  width: 100px;
+}
+
+.frame .div-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+  width: 800px;
+}
+
+.frame .div-4 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  position: relative;
+}
+
+.frame .div-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #e7e7e7;
+  border-radius: 12px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  padding: 20px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .div-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .div-6 {
+  align-items: flex-start;
+  background-color: #f7f7f7;
+  border-radius: 90px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 12px;
+  position: relative;
+}
+
+.frame .icon-instance-node {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.frame .div-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .text-wrapper-3 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}
+
+.frame .explain-quantum {
+  align-self: stretch;
+  color: #919191;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.4px;
+  position: relative;
+}
+
+.frame .span {
+  text-decoration: underline;
+}
+
+.frame .text-wrapper-4 {
+  color: #919191;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.4px;
+}
+
+.frame .p {
+  align-self: stretch;
+  color: #919191;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.4px;
+  margin-top: -2px;
+  position: relative;
+  text-decoration: underline;
+}
+
+.frame .frame-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #e7e7e7;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 180px;
+  overflow: hidden;
+  padding: 20px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .text-wrapper-5 {
+  align-self: stretch;
+  color: #919191;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.frame .text-wrapper-6 {
+  align-self: stretch;
+  color: #919191;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.4px;
+  margin-top: -2px;
+  position: relative;
+}
