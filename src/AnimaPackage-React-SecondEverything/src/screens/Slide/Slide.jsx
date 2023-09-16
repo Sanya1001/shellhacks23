@@ -48,11 +48,10 @@ export const Slide = () => {
                 <div className="frame-24">
                   <div className="text-wrapper-15">2.03 PM, 15 Nov</div>
                   <p className="design-development">
-                    Design development, UX/UI, and product design are all related terms in the field of design, but they
-                    refer to slightly different aspects of the design process.
+                    IncluScript.Ai
                     <br />
+                    this is the live transcript
                     <br />
-                    Design development refers...
                   </p>
                 </div>
               </div>

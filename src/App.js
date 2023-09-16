@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import ParticlesBackground from './components/ParticlesBackground';
+=======
+import React from 'react';
+
+>>>>>>> bb3b85818112624903647cc7efb2e00ff9edaa28
 import { Slide } from './AnimaPackage-React-SecondEverything/src/screens/Slide/Slide';
 import './App.css';
+
 
 function App() {
   const [text, setText] = useState('Initial Text');
@@ -23,11 +29,17 @@ function App() {
         <h1>IncluScript.ai</h1>
       </header>
       <main className="App-main"> 
+<<<<<<< HEAD
         <Slide /> 
       </main>
       <div>
         <h1>{text}</h1> {/* Display the value of the 'text' state variable */}
       </div>
+=======
+      <Slide /> 
+
+      </main>
+>>>>>>> bb3b85818112624903647cc7efb2e00ff9edaa28
     </div>
   );
 }

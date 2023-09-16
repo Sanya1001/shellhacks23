@@ -1,1 +1,0 @@
-export { Exclamation } from "./Exclamation";

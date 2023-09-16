@@ -31,12 +31,10 @@ stream = audio.open(format=FORMAT, channels=CHANNELS,
 print("Recording...")
 
 frames = []
-data = stream.read(CHUNK)
-frames.append(data)
 
-# for _ in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
-#     data = stream.read(CHUNK)
-#     frames.append(data)
+for _ in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
+    data = stream.read(CHUNK)
+    frames.append(data)
 
 print("Recording stopped.")
 

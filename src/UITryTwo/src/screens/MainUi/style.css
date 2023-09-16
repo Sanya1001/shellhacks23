@@ -1,0 +1,448 @@
+.main-UI {
+  background-color: #343541;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-UI .div {
+  background-color: var(--middle);
+  height: 752px;
+  position: relative;
+  width: 1432px;
+}
+
+.main-UI .chatgpt-jan {
+  color: var(--gray-footprint);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 416px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 701px;
+  white-space: nowrap;
+  width: 888px;
+}
+
+.main-UI .text-wrapper {
+  text-decoration: underline;
+}
+
+.main-UI .span {
+  color: #9a9b9f;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.main-UI .left-sidebar {
+  background-color: #202123;
+  height: 752px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 261px;
+}
+
+.main-UI .logout {
+  height: 12px;
+  left: 22px;
+  position: absolute;
+  top: 711px;
+  width: 81px;
+}
+
+.main-UI .text-wrapper-2 {
+  color: var(--white);
+  font-family: "Inter", Helvetica;
+  font-size: 13.5px;
+  font-weight: 500;
+  height: 12px;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 53px;
+}
+
+.main-UI .img {
+  height: 13px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 13px;
+}
+
+.main-UI .updates-FAQ {
+  height: 12px;
+  left: 22px;
+  position: absolute;
+  top: 663px;
+  width: 129px;
+}
+
+.main-UI .updates-FAQ-2 {
+  color: var(--white);
+  font-family: "Inter", Helvetica;
+  font-size: 13.5px;
+  font-weight: 500;
+  height: 12px;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 101px;
+}
+
+.main-UI .discord {
+  height: 12px;
+  left: 21px;
+  position: absolute;
+  top: 615px;
+  width: 135px;
+}
+
+.main-UI .text-wrapper-3 {
+  color: var(--white);
+  font-family: "Inter", Helvetica;
+  font-size: 13.5px;
+  font-weight: 500;
+  height: 12px;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 106px;
+}
+
+.main-UI .discord-2 {
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.main-UI .light-mode {
+  height: 14px;
+  left: 21px;
+  position: absolute;
+  top: 566px;
+  width: 108px;
+}
+
+.main-UI .text-wrapper-4 {
+  color: var(--white);
+  font-family: "Inter", Helvetica;
+  font-size: 13.5px;
+  font-weight: 500;
+  height: 12px;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+  width: 79px;
+}
+
+.main-UI .contrast {
+  height: 15px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 15px;
+}
+
+.main-UI .clear-conversations {
+  height: 13px;
+  left: 22px;
+  position: absolute;
+  top: 518px;
+  width: 178px;
+}
+
+.main-UI .text-wrapper-5 {
+  color: var(--white);
+  font-family: "Inter", Helvetica;
+  font-size: 13.5px;
+  font-weight: 500;
+  height: 12px;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 1px;
+  white-space: nowrap;
+  width: 150px;
+}
+
+.main-UI .delete {
+  height: 15px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 13px;
+}
+
+.main-UI .line {
+  height: 1px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 499px;
+  width: 244px;
+}
+
+.main-UI .chatbot-definition {
+  height: 45px;
+  left: 8px;
+  position: absolute;
+  top: 66px;
+  width: 246px;
+}
+
+.main-UI .overlap-group {
+  background-color: #343540;
+  border-radius: 6px;
+  height: 45px;
+  position: relative;
+  width: 244px;
+}
+
+.main-UI .text-wrapper-6 {
+  color: var(--bright-gray);
+  font-family: "Inter", Helvetica;
+  font-size: 13.5px;
+  font-weight: 500;
+  height: 12px;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 16px;
+  white-space: nowrap;
+  width: 151px;
+}
+
+.main-UI .message {
+  height: 13px;
+  left: 13px;
+  position: absolute;
+  top: 15px;
+  width: 13px;
+}
+
+.main-UI .pen {
+  height: 13px;
+  left: 197px;
+  position: absolute;
+  top: 15px;
+  width: 13px;
+}
+
+.main-UI .delete-2 {
+  height: 13px;
+  left: 222px;
+  position: absolute;
+  top: 15px;
+  width: 12px;
+}
+
+.main-UI .new-chat-button {
+  height: 45px;
+  left: 8px;
+  position: absolute;
+  top: 9px;
+  width: 246px;
+}
+
+.main-UI .overlap {
+  border-radius: 6px;
+  height: 45px;
+  position: relative;
+  width: 244px;
+}
+
+.main-UI .text-wrapper-7 {
+  color: var(--white);
+  font-family: "Inter", Helvetica;
+  font-size: 13.5px;
+  font-weight: 500;
+  height: 12px;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 16px;
+  white-space: nowrap;
+  width: 79px;
+}
+
+.main-UI .plus {
+  height: 9px;
+  left: 16px;
+  position: absolute;
+  top: 17px;
+  width: 9px;
+}
+
+.main-UI .rectangle {
+  border: 1px solid;
+  border-color: var(--bright);
+  border-radius: 6px;
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 244px;
+}
+
+.main-UI .question-user {
+  height: 33px;
+  left: 465px;
+  position: absolute;
+  top: 23px;
+  width: 486px;
+}
+
+.main-UI .avatar-user {
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 30px;
+}
+
+.main-UI .text-wrapper-8 {
+  color: var(--white);
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 56px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.main-UI .answer-chatbot {
+  background-color: var(--bright);
+  border: 1px solid;
+  border-color: #32343a;
+  height: 162px;
+  left: 261px;
+  position: absolute;
+  top: 76px;
+  width: 1171px;
+}
+
+.main-UI .rating {
+  height: 15px;
+  left: 924px;
+  position: absolute;
+  top: 31px;
+  width: 43px;
+}
+
+.main-UI .p {
+  color: var(--white);
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 260px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 27px;
+  width: 628px;
+}
+
+.main-UI .avatar-chatgpt {
+  height: 30px;
+  left: 204px;
+  position: absolute;
+  top: 27px;
+  width: 30px;
+}
+
+.main-UI .regenerate-button {
+  height: 37px;
+  left: 758px;
+  position: absolute;
+  top: 599px;
+  width: 186px;
+}
+
+.main-UI .overlap-2 {
+  border-radius: 3px;
+  height: 37px;
+  position: relative;
+  width: 184px;
+}
+
+.main-UI .text-wrapper-9 {
+  color: var(--gray-icons);
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 5px;
+  white-space: nowrap;
+  width: 134px;
+}
+
+.main-UI .rectangle-2 {
+  border: 1px solid;
+  border-color: var(--bright);
+  border-radius: 3px;
+  height: 37px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 184px;
+}
+
+.main-UI .refresh {
+  height: 10px;
+  left: 14px;
+  position: absolute;
+  top: 14px;
+  width: 12px;
+}
+
+.main-UI .input-field {
+  background-color: #40414e;
+  border: 1px solid;
+  border-color: #303139;
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px #0000001a;
+  height: 48px;
+  left: 465px;
+  position: absolute;
+  top: 646px;
+  width: 768px;
+}
+
+.main-UI .send {
+  height: 14px;
+  left: 740px;
+  position: absolute;
+  top: 18px;
+  width: 14px;
+}
