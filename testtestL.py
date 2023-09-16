@@ -401,6 +401,8 @@ def main() -> None:
                 sys.stdout.write("\n")
             stream.new_stream = True
 
+    print(timestamps)
+
 
 if __name__ == "__main__":
     main()
