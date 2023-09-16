@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.slide {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide .div-2 {
+  background-color: #ffffff;
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.slide .design-component-instance-node-2 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.slide .checkbox-2 {
+  position: relative !important;
+}
+
+.slide .icon-instance-node-3 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.slide .icon-instance-node-4 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.slide .frame-17 {
+  height: 1080px;
+  left: 482px;
+  position: absolute;
+  top: 0;
+  width: 1438px;
+}
+
+.slide .frame-18 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 319px;
+  position: absolute;
+  top: 164px;
+}
+
+.slide .frame-wrapper {
+  align-items: flex-end;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px 0px;
+  position: relative;
+  width: 800px;
+}
+
+.slide .frame-19 {
+  align-items: flex-end;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+  width: 700px;
+}
+
+.slide .frame-20 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 624px;
+}
+
+.slide .text-wrapper-13 {
+  color: #888888;
+  font-family: 'Rubik';
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.slide .text-wrapper-14 {
+  color: #888888;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -4px;
+  position: relative;
+  text-align: right;
+  width: 628px;
+}
+
+.slide .frame-21 {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  height: 50px;
+  position: relative;
+}
+
+.slide .frame-22 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px 0px;
+  position: relative;
+  width: 800px;
+}
+
+.slide .frame-23 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+  width: 700px;
+}
+
+.slide .unnamed-wrrf-wrapper {
+  height: 27px;
+  position: relative;
+  width: 24px;
+}
+
+.slide .unnamed-wrrf {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 24px;
+}
+
+.slide .frame-24 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 660px;
+}
+
+.slide .text-wrapper-15 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  width: 109px;
+}
+
+.slide .design-development {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 660px;
+}
+
+.slide .frame-25 {
+  align-items: flex-end;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+  left: 319px;
+  position: absolute;
+  top: 955px;
+}
+
+.slide .frame-26 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+  width: 800px;
+}
+
+.slide .frame-27 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 12px;
+  position: relative;
+}
+
+.slide .frame-28 {
+  align-items: flex-start;
+  background-color: #eeeeee;
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 6px 12px;
+  position: relative;
+}
+
+.slide .text-wrapper-16 {
+  color: #585858;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.slide .frame-29 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.slide .overlap {
+  height: 21px;
+  position: relative;
+  top: 2px;
+  width: 22px;
+}
+
+.slide .overlap-group {
+  height: 21px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 22px;
+}
+
+.slide .icon {
+  height: 19px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.slide .star {
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 16px;
+  width: 5px;
+}
+
+.slide .star-2 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 14px;
+  width: 2px;
+}
+
+.slide .text-wrapper-17 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.slide .input-instance {
+  flex: 0 0 auto !important;
+}
