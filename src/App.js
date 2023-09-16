@@ -3,6 +3,7 @@ import React from 'react';
 import { Slide } from './AnimaPackage-React-SecondEverything/src/screens/Slide/Slide';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       </header>
       <main className="App-main"> 
       <Slide /> 
+
       </main>
     </div>
   );
