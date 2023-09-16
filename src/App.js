@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import ParticlesBackground from './components/ParticlesBackground';
 import { Slide } from './AnimaPackage-React-SecondEverything/src/screens/Slide/Slide';
 import './App.css';
 
@@ -19,7 +18,6 @@ function App() {
 
   return (
     <div className="App">
-      <ParticlesBackground/>
       <header className="App-header">
         <h1>IncluScript.ai</h1>
       </header>
