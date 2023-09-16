@@ -1,3 +1,4 @@
+//the chatgpt import with the examples, capabilities, limitations thing
 import React, { useState } from 'react';
 import "./index.css";
 
