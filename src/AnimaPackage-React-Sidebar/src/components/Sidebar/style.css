@@ -1,0 +1,161 @@
+.sidebar {
+  align-items: center;
+  border-color: var(--gray-300);
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  justify-content: space-between;
+  padding: 24px 40px;
+  position: relative;
+  width: 482px;
+}
+
+.sidebar .frame-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.sidebar .text-wrapper-2 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 34px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}
+
+.sidebar .frame-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.sidebar .frame-6 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.sidebar .text-wrapper-3 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}
+
+.sidebar .mode-card-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.sidebar .frame-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: #e8e8e8;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 10px 10px 10px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.sidebar .text-wrapper-4 {
+  color: #000000;
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  height: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}
+
+.sidebar .chevron-down {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.sidebar .frame-8 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.sidebar .check-yes-instance {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.sidebar .text-wrapper-5 {
+  color: #000000;
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.sidebar .checkbox-instance {
+  position: relative !important;
+}
+
+.sidebar .segment-instance {
+  flex: 0 0 auto !important;
+}
+
+.sidebar .design-component-instance-node {
+  border-color: #e8e8e8 !important;
+}
+
+.sidebar .segment-2 {
+  border-color: #e8e8e8 !important;
+  border-radius: 0px 8px 8px 0px !important;
+  border-right-style: solid !important;
+  border-right-width: 1px !important;
+}
+
+.sidebar .icon-instance-node {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}

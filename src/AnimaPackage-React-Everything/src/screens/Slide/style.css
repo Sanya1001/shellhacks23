@@ -1,0 +1,45 @@
+.slide {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide .div-2 {
+  background-color: #ffffff;
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.slide .sidebar-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.slide .checkbox-2 {
+  position: relative !important;
+}
+
+.slide .checkbox-4-instance {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.slide .icon-instance-node-2 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.slide .img {
+  height: 1080px;
+  left: 6870px;
+  position: absolute;
+  top: -2853px;
+  width: 1438px;
+}
