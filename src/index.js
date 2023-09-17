@@ -33,6 +33,7 @@ values = [' I hope this is working good to see that', 'exit'];
 speakers = ['Sanya: ', 'Aarham: ', ""];
 speaker = speakers[0];
 colors = ['#AEBA8B', '#6BA598'];
+fonts = [16, 20]
 
 let doc = "";
 
@@ -44,9 +45,10 @@ setInterval(nextTranscript, 500);
 function nextTranscript() {
   if (index < transcripts.length) {
     pane.style.color = colors[i];
+    pane.style.fontSize = fonts[i] + 'px';
     let text = doc + '<span>' + speaker + transcripts[index] + '</span>';
     if (transcripts[index] == values[i]){
-      doc = doc + "<span style=\"color: " + colors[i] + "\">" + speaker + transcripts[index] + "</span> <br> <br>";
+      doc = doc + "<span style=\"color: " + colors[i] + "; font-size: " + fonts[i] + "px\">" + speaker + transcripts[index] + "</span> <br> <br>";
       i++;
       speaker = speakers[i];
     }
