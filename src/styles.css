@@ -11,7 +11,7 @@ body {
 
 /* Header */
 #header {
-    background-color: #007bff; /* Blue background color */
+    background-color: #1E3648;; /* Blue background color */
     color: #fff; /* White text color */
     padding: 10px;
 }
@@ -29,7 +29,8 @@ body {
 
 #prevtranscripts-pane {
     flex: 1; /* 1/4 of the available width */
-    background-color: #f0f0f0;
+    color: #D5D9BE;
+    background-color: #2A4E5C;;
     padding: 10px;
     overflow-y: auto;
 }
@@ -46,9 +47,9 @@ body {
     flex-direction: column; /* Vertical layout */
 }
 
-#transcription-pane,
-#summarization-pane {
+#transcription-pane{
     flex: 1; /* Equal height and stacked vertically */
+    padding: 10px;
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     font-size: 16px;
@@ -74,10 +75,21 @@ body {
     font-size: 18px;
     margin: 0;
     padding: 0;
+    color: #AEBA8B;
 }
 
 .transcript-box p {
     font-size: 14px;
     margin: 0;
     padding: 0;
+    color: #AEBA8B;
+}
+
+#summarization-pane{
+    flex: 1; /* Equal height and stacked vertically */
+    padding: 10px;
+    background-color: #D5D9BE;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    margin-bottom: 10px; /* Add space between the divs if needed */
 }
