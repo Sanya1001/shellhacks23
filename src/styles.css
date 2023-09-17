@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#header {
+    background-color: #032242;
+    color: #f9faf9;
+    padding: 10px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Main Content Area */
+#content {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left Pane */
+#prevtranscripts-pane {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#prevtranscripts-pane h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#transcript-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#transcript-list li {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+/* Right Pane (Real-time Transcript Display) */
+#transcription-pane {
+    flex: 2;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+}
+
+#real-time-transcript {
+    font-weight: bold;
+}
