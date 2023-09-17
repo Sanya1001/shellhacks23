@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.landing-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001f3f; /* Deep bluish background color */
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('your-image.jpg'); /* Replace with your background image */
+    background-size: cover;
+    filter: blur(5px); /* Add a blur effect to the background */
+    opacity: 0.6; /* Adjust the opacity to your preference */
+}
+
+.content {
+    text-align: center;
+    color: #ffffff; /* White text color */
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 24px;
+}
