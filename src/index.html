@@ -7,9 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="landing_page.css">
     <script src="script.js" defer></script>
-</head>
-<body>
-    <canvas id="canvas"></canvas>
     <style>
         /* Style for the button */
         .button-link {
@@ -21,17 +18,35 @@
             border-radius: 5px; /* Add rounded corners */
             transition: background-color 0.3s; /* Smooth color transition on hover */
             position: absolute; /* Position the button absolutely */
-            top: 20px; /* Adjust top position as needed */
-            left: 20px; /* Adjust left position as needed */
-            z-index: 999; /* Set a high z-index to bring it to the front */
+            bottom: 100px; /* Adjust bottom position as needed */
+            left: 50%; /* Center the button horizontally */
+            transform: translateX(-50%); /* Center the button horizontally */
+            z-index: 2; /* Set a high z-index to bring it to the front */
         }
 
         /* Style the button on hover */
         .button-link:hover {
             background-color: #7b91fc; /* Darker pink background on hover */
         }
-    </style>
 
+        /* Style to center the image */
+        .centered-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1; /* Set a z-index to position it below the button */
+        }
+    </style>
+</head>
+<body>
+    <!-- Canvas for animation -->
+    <canvas id="canvas"></canvas>
+    
+    <!-- Image from the internet -->
+    <img class="centered-image" src="file:///Users/audreychen/Desktop/incluscript.jpg.png" alt="Centered Image">
+    
+    <!-- Button -->
     <a class="button-link" href="./main.html">Go to Main Page</a>
 </body>
 </html>
