@@ -32,7 +32,7 @@ speakers = {'SPEAKER_00': ' I hope this is working good to see that',
 values = [' I hope this is working good to see that', 'exit'];
 speakers = ['Sanya: ', 'Aarham: ', ""];
 speaker = speakers[0];
-colors = ['blue', 'red'];
+colors = ['#AEBA8B', '#6BA598'];
 
 let doc = "";
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Slide } from './AnimaPackage-React-SecondEverything/src/screens/Slide/Slide';
+import { Slide } from '../AnimaPackage-React-SecondEverything/src/screens/Slide/Slide';
 import './App.css';
 
 

@@ -10,5 +10,28 @@
 </head>
 <body>
     <canvas id="canvas"></canvas>
+    <style>
+        /* Style for the button */
+        .button-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #698fff; /* Pink background color */
+            color: white; /* White text color */
+            text-decoration: none; /* Remove underline for links */
+            border-radius: 5px; /* Add rounded corners */
+            transition: background-color 0.3s; /* Smooth color transition on hover */
+            position: absolute; /* Position the button absolutely */
+            top: 20px; /* Adjust top position as needed */
+            left: 20px; /* Adjust left position as needed */
+            z-index: 999; /* Set a high z-index to bring it to the front */
+        }
+
+        /* Style the button on hover */
+        .button-link:hover {
+            background-color: #7b91fc; /* Darker pink background on hover */
+        }
+    </style>
+
+    <a class="button-link" href="/src/index.html">Go to Index</a>
 </body>
 </html>
