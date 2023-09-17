@@ -29,5 +29,6 @@ The project revealed the untapped potential of generative AI in both accessibili
 We're planning to roll out additional features like dynamic fonts to better comprehend voice intensity and a 'ping names' feature to make multi-speaker environments even more accessible.
 
 ## Built With
+<p align="center"> <img align="center" src="Screenshot 2023-09-17 at 10.51.05 AM.png"> </p>
 css, gcp, git, gpt, html, huggingface, javascript, natural-language-processing, python, speech-to-text
 
