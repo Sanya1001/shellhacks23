@@ -2,92 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IncluScript.ai</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="index.js" defer></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="landing_page.css">
+    <script src="script.js" defer></script>
+    <style>
+        /* Style for the button */
+        .button-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f4f4f4; /* Pink background color */
+            color: rgb(0, 0, 0); /* White text color */
+            text-decoration: none; /* Remove underline for links */
+            border-radius: 5px; /* Add rounded corners */
+            transition: background-color 0.3s; /* Smooth color transition on hover */
+            position: absolute; /* Position the button absolutely */
+            bottom: 100px; /* Adjust bottom position as needed */
+            left: 50%; /* Center the button horizontally */
+            transform: translateX(-50%); /* Center the button horizontally */
+            z-index: 2; /* Set a high z-index to bring it to the front */
+        }
+
+        /* Style the button on hover */
+        .button-link:hover {
+            background-color: #d5d5d7; /* Darker pink background on hover */
+        }
+
+        /* Style to center the image */
+        .centered-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1; /* Set a z-index to position it below the button */
+            border-radius: 10%; 
+        }
+    </style>
 </head>
 <body>
-    <!-- Header -->
-    <div id="header">
-        <span id="logo">IncluScript.ai</span>
-    </div>
-
-    <!-- Main Content Area -->
-    <div id="content">
-        <!-- Left Pane -->
-        <div id="prevtranscripts-pane">
-            <h2>My Transcripts</h2>
-            <div class="transcript-box">
-                <h3>Transcript 1</h3>
-                <p>This is the content of transcript 1.</p>
-            </div>
-            
-            <div class="transcript-box">
-                <h3>Transcript 2</h3>
-                <p>This is the content of transcript 2.</p>
-            </div>
-            
-            <div class="transcript-box">
-                <h3>Transcript 3</h3>
-                <p>This is the content of transcript 3.</p>
-            </div>
-            
-            <div class="transcript-box">
-                <h3>Transcript 4</h3>
-                <p>This is the content of transcript 4.</p>
-            </div>
-            
-            <div class="transcript-box">
-                <h3>Transcript 5</h3>
-                <p>This is the content of transcript 5.</p>
-            </div>
-            
-            <div class="transcript-box">
-                <h3>Transcript 6</h3>
-                <p>This is the content of transcript 6.</p>
-            </div>
-            <div class="transcript-box">
-                <h3>Transcript 7</h3>
-                <p>This is the content of transcript 7.</p>
-            </div>
-            
-            <div class="transcript-box">
-                <h3>Transcript 8</h3>
-                <p>This is the content of transcript 8.</p>
-            </div>
-            
-            <div class="transcript-box">
-                <h3>Transcript 9</h3>
-                <p>This is the content of transcript 9.</p>
-            </div>
-            
-            <div class="transcript-box">
-                <h3>Transcript 10</h3>
-                <p>This is the content of transcript 10.</p>
-            </div>
-
-            
-            <ul id="transcript-list">
-                <!-- Previous transcripts will be added dynamically -->
-                
-            </ul>
-        </div>
-        <div class = "container">
-        <!-- Right Pane (Real-time Transcript Display) -->
-            <div id="transcription-pane">
-                <p id="real-time-transcript">Listening for speech...</p>
-                <p id="blank" style="color: blue"></p>
-            </div>
-            <div id="summarization-pane">
-                <p id="real-time-summary">Highlights appear here...</p> <br>
-                <span>
-                    Sanya expressed her hope that something is functioning well 
-                    and mentioned that it's good to see it working, to which Aarham 
-                    responded with the word "exit."
-                </span>
-            </div>
-        </div>
-    </div>
+    <!-- Canvas for animation -->
+    <canvas id="canvas"></canvas>
+    
+    <!-- Image from the internet -->
+    <img class="centered-image" src="./incluscript.jpg.png" alt="Centered Image">
+    
+    <!-- Button -->
+    <a class="button-link" href="./main.html">Go to Main Page</a>
 </body>
 </html>
