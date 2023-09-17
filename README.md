@@ -5,6 +5,8 @@
 ## Inspiration
 Imagine going through school struggling to follow class discussions because you have single-sided deafness, or struggling to keep up with Zoom captions because of learning disabilities. A typical classroom turns into an exhausting, isolating experience. These struggles were the catalyst for IncluScript.ai.
 
+<p align="center"> <img align="center" src="landing.gif"> </p>
+
 ## What it does
 IncluScript.ai is an innovative solution designed to bridge the gap in accessible education. Features like live transcription and multi-speaker recognition ensure that everyone, regardless of their auditory abilities, can participate in educational settings. Our paced summarization feature also distills complex information, making it easier for learners to grasp key points at their own pace.
 
