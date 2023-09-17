@@ -24,7 +24,6 @@ import openai
 
 openai.api_key = "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"
 timestamps = [0]
-transcripts = [""]
 
 
 def split_text(text):
@@ -307,9 +306,8 @@ def listen_print_loop(responses: object, stream: object) -> object:
 
         stream.result_end_time = int(
             (result_seconds * 1000) + (result_micros / 1000))
-
+        
         timestamps.append(stream.result_end_time)
-        transcripts.append(transcript)
 
         corrected_time = (
             stream.result_end_time
@@ -328,6 +326,7 @@ def listen_print_loop(responses: object, stream: object) -> object:
 
             stream.is_final_end_time = stream.result_end_time
             stream.last_transcript_was_final = True
+
 
             # Exit recognition if any of the transcribed phrases could be
             # one of our keywords.
@@ -403,7 +402,6 @@ def main() -> None:
             stream.new_stream = True
 
     print(timestamps)
-    print(transcripts)
 
 
 if __name__ == "__main__":
