@@ -1,5 +1,7 @@
 # IncluScript.ai
 
+![Features](features.png)
+
 ## Inspiration
 Imagine going through school struggling to follow class discussions because you have single-sided deafness, or struggling to keep up with Zoom captions because of learning disabilities. A typical classroom turns into an exhausting, isolating experience. These struggles were the catalyst for IncluScript.ai.
 
