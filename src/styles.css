@@ -69,20 +69,21 @@ body {
     margin: 10px;
     background-color: #f9f9f9;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
 }
 
 .transcript-box h3 {
     font-size: 18px;
     margin: 0;
     padding: 0;
-    color: #AEBA8B;
+    color: #1E3648;
 }
 
 .transcript-box p {
     font-size: 14px;
     margin: 0;
     padding: 0;
-    color: #AEBA8B;
+    color: #2A4E5C;
 }
 
 #summarization-pane{
