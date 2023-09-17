@@ -1,4 +1,5 @@
-# IncluScript.ai
+<p align="center"> <img align="center" src="src/Screenshot 2023-09-17 at 2.54.52 AM.png"> </p>
+<hr>
 
 ![Features](features.png)
 
