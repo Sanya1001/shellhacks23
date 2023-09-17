@@ -37,6 +37,14 @@
             transform: translate(-50%, -50%);
             z-index: 1; /* Set a z-index to position it below the button */
             border-radius: 10%; 
+            opacity: 0.5;
+        }
+
+        #name{
+            display: inline-block;
+            top: 75%;
+            left: 50%;
+            z-index: 2;
         }
     </style>
 </head>
@@ -45,7 +53,8 @@
     <canvas id="canvas"></canvas>
     
     <!-- Image from the internet -->
-    <img class="centered-image" src="./incluscript.jpg.png" alt="Centered Image">
+    <img class="centered-image" src="./logoshell-removebg-preview.png" alt="Centered Image">
+    <img class="centered-image" src="./Screenshot 2023-09-17 at 2.54.52 AM.png" alt="Centered Image" id="name">
     
     <!-- Button -->
     <a class="button-link" href="./main.html">Go to Main Page</a>
