@@ -1,31 +1,34 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset default browser styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
 }
 
 /* Header */
 #header {
-    background-color: #032242;
-    color: #f9faf9;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
     padding: 10px;
 }
 
 #logo {
     font-size: 24px;
     font-weight: bold;
-    margin-left: 10px;
 }
 
 /* Main Content Area */
 #content {
     display: flex;
-    height: 100vh;
+    flex-direction: row; /* Horizontal layout */
 }
 
-/* Left Pane */
 #prevtranscripts-pane {
-    flex: 1;
+    flex: 1; /* 1/4 of the available width */
     background-color: #f0f0f0;
     padding: 10px;
     overflow-y: auto;
@@ -34,29 +37,27 @@ body {
 #prevtranscripts-pane h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    height: 100vh;
 }
 
-#transcript-list {
-    list-style-type: none;
-    padding: 0;
+.container {
+    flex: 3; /* 3/4 of the available width */
+    display: flex;
+    flex-direction: column; /* Vertical layout */
 }
 
-#transcript-list li {
-    margin-bottom: 5px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-}
-
-/* Right Pane (Real-time Transcript Display) */
-#transcription-pane {
-    flex: 2;
-    padding: 10px;
+#transcription-pane,
+#summarization-pane {
+    flex: 1; /* Equal height and stacked vertically */
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     font-size: 16px;
+    margin-bottom: 10px; /* Add space between the divs if needed */
 }
 
-#real-time-transcript {
+#real-time-transcript,
+#real-time-summary {
     font-weight: bold;
 }
+
+/* Add additional styling as needed */
